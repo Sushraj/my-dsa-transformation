@@ -16,6 +16,3 @@ in **JavaScript** — from fundamentals to interview-level problem solving.
 ### Tech Stack
 - Language: JavaScript
 - Platform: LeetCode / custom problems
-
-### Goal
-To become interview-ready for **product companies (Google-level)** by mastering DSA fundamentals and patterns.
