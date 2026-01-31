@@ -3,7 +3,7 @@
 let arr = [34, 5, 66, 2, 7, 2, 77, 5];
 
 function findLargest(arr) {
-  let max = -1;
+  let max = -Infinity;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > max) {
       max = arr[i];
