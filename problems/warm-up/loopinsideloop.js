@@ -1,16 +1,16 @@
-function loops1() {
-  for (let i = 0; i < 3; i++) {
-    for (let j = 0; j < 3; j++) {
-      console.log("i", i, "=", "j", j);
-    }
-  }
-}
+// function loops1() {
+//   for (let i = 0; i < 3; i++) {
+//     for (let j = 0; j < 3; j++) {
+//       console.log("i", i, "=", "j", j);
+//     }
+//   }
+// }
 //loops();
 
 function loops2() {
   for (let i = 5; i > 0; i--) {
     for (let j = 0; j < i; j++) {
-      console.log("i", i, "=", "j", j);
+      console.log("i =" + i + "j =" + j);
     }
   }
 }
