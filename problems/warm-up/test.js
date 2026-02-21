@@ -11,17 +11,57 @@
 
 // console.log(searchElement(arr, 44));
 
-function fetchNegative(arr) {
-  let counter = 0;
+//------------------------------------------------------------------------------------------------------
 
+
+// function fetchNegative(arr) {
+//   let counter = 0;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < 0) {
+//       counter++;
+//     }
+//   }
+
+//   return counter;
+// }
+
+// let arr = [2, 5, 3];
+// console.log(fetchNegative(arr));
+
+//------------------------------------------------------------------------------------------------------
+
+// let arr = [2, 5, 3, -2, 6, -7];
+
+// function fetchLargest(arr) {
+//     let largest = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//        largest =arr[i];
+//     }
+//   }
+
+//   return largest;
+// }
+
+// console.log(fetchLargest(arr));
+
+//------------------------------------------------------------------------------------------------------
+
+
+let arr = [2, 5, 3, -2, 6, -7];
+
+function fetchSmallest(arr) {
+    let min  = Infinity;
   for (let i = 0; i < arr.length; i++) {
-    if (arr[i] < 0) {
-      counter++;
+    if (arr[i] < min) {
+       min =arr[i];
     }
   }
 
-  return counter;
+  return min;
 }
 
-let arr = [2, 5, 3];
-console.log(fetchNegative(arr));
+console.log(fetchSmallest(arr));
+
+
